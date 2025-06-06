@@ -9,6 +9,7 @@ import { MatButtonModule } from '@angular/material/button';
 
 @Component({
   selector: 'app-aluno-form',
+  standalone: true,
   imports: [ReactiveFormsModule, MatButtonModule, MatFormFieldModule, MatInputModule],
   templateUrl: './aluno-form.component.html',
   styleUrl: './aluno-form.component.css'
