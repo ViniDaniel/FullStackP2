@@ -6,6 +6,7 @@ import { Aluno } from '../aluno.model';
 
 @Component({
   selector: 'app-aluno-list',
+  standalone: true,
   imports: [MatTableModule, CommonModule],
   templateUrl: './aluno-list.component.html',
   styleUrl: './aluno-list.component.css'
